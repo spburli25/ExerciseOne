@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>HTML5</title>
+<title>Portfolio</title>
 <meta charset="utf-8">
-<link rel="stylesheet"  href="css/style_portfolio.css">
 <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/960_12_col.css"/>
 <link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="css/text.css"/>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet"  href="css/style.css">
 </head>
 <body>
   <div class="wrap container_12">
-    <!-- Header -->
+    <!-- Header section starts-->
     <header class="header clearfix">
-      <p class="grid_4">
+      <p class="grid_2">
         <img class="img_Wipro" src="images/wipro.jpg" >
       </p>
+
       <nav class="primary_menu grid_8">
         <li><a href="#">Industries</a></li>
         <li><a href="#">Portfolio</a></li>
@@ -24,20 +25,26 @@
         <li><a href="#">Insights</a></li>
       </nav>
     </header>
+    <!-- Header section ends -->
+
+    <!-- Main content starts -->
     <!-- Container for decription -->
     <div class="Portfolio_Container clearfix">
       <h5> Success Stories </h5>
       <p> Some of our best success stories</p>
     </div>
-    <!-- Main Content -->
-    <div class="Primary clearfix">
-		  <div class="Robust grid_4">
+
+    <!-- Portfolio first set -->
+    <div class="Base1 clearfix">
+
+      <div class="Robust grid_4">
 		    <img  class="img_Robust" src="images/robust.jpg" >
 		    <h4>Robust Bid Management</h4>
         <p>
           Robust Bid-Management Platform to Support Growth - Oracle Sales Cloud at KEC Intl.
         </p>
 		  </div>
+
 		  <div class="Power grid_4">
 		    <img class="img_Power" src="images/Power_Profit.jpg" >
         <h4>Profits from Power</h4>
@@ -47,6 +54,7 @@
           multiple geographies
 		    </p>
 		  </div>
+
 		  <div class="IOT grid_4">
 		    <img class="img_IOT" src="images/IOTImage.jpg" >
         <h4>Internet Of Things</h4>
@@ -56,8 +64,12 @@
           or save jillions by pro-actively managing your critical machinery
 		    </p>
 		  </div>
+
     </div>
-    <div class="Secondary clearfix">
+
+    <!-- Portfolio second set -->
+    <div class="Base2 clearfix">
+
       <div class="Leverage grid_4">
         <img class="img_Leverage" src="images/Leverage_CrossSelling.jpg" >
         <h4>Leverage 360 Degree Preview</h4>
@@ -67,6 +79,7 @@
           Salesforce CRM”
         </p>
       </div>
+
       <div class="Breakdown grid_4">
         <img class="img_Breakdown" src="images/Breakdown.jpg" >
         <h4>Breakdowns to Breakthroughs</h4>
@@ -77,6 +90,7 @@
           machine data
         </p>
       </div>
+
       <div class="Customer_Analytics grid_4">
         <img class="img_Analytics" src="images/Customer_Analytics.jpg" >
         <h4>Customer Relationship Analytics</h4>
@@ -85,8 +99,12 @@
           empower the customer facing teams with improved analytics and faster time-to-market.
         </p>
       </div>
+
     </div>
-    <div class="Ternary clearfix">
+
+    <!-- Portfolio third set -->
+    <div class="Base3 clearfix">
+
       <div class="Optimize_Finance grid_6">
         <img class="img_OptimizeFinance" src="images/Optimize_Finance.jpg" >
         <h4>Optimize Finance and Accounting with BPaaS</h4>
@@ -95,6 +113,7 @@
           a leading payments processing company, through a zero-capex transaction-based pricing model
         </p>
       </div>
+
       <div class="Delta_Drone grid_6">
         <img class="img_DeltaDrone" src="images/Delta_Drone.jpg" >
         <h4>Empowering Delta Drone leveraging the Cloud</h4>
@@ -104,25 +123,36 @@
           Drone research and development, UAV training, data processing & manufacturing, operations and commercial
         </p>
       </div>
+
     </div>
-    <!-- Footer -->
+    <!-- Main content ends -->
+
+    <!--  Footer section starts-->
     <footer class="footer clearfix">
-      <h6>Connect with us</h6>
-      <ul class="social_links grid_3">
-        <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-        <li><a href="#"><i class="fa fa-youtube-square fa-2x"></i></a></li>
-        <li><a href="#"><i class="fa fa-rss-square fa-2x"></i></a></li>
-      </ul>
-      <ul class="site_links grid_6">
-	      <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Newsroom</a></li>
-        <li><a href="#">Investors</a></li>
-        <li><a href="#">Contact Us</a></li>
-	    </ul>
+      <div class="grid_3">
+        <h6>Connect with us</h6>
+        <!-- Social links of Wipro -->
+        <ul class="social_links grid_3">
+          <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-rss-square fa-2x"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="grid_6">
+        <!-- Site links of Wipro -->
+        <ul class="site_links grid_6">
+	        <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">Investors</a></li>
+          <li><a href="#">Contact Us</a></li>
+	      </ul>
+      </div>
 		  <p class="footer_copywright grid_12"> &copy WIPRO TECHNOLOGIES. All Rights Reserved </p>
     </footer>
+    <!-- Footer section ends -->
   </div>
 </body>
 </html>
